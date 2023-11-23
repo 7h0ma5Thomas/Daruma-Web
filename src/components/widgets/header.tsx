@@ -63,7 +63,7 @@ export default function Header() {
                 </Link>
               </div>
               <div className="flex items-center mt-20">
-                <Link href="/">
+                <Link href="https://www.linkedin.com/in/thomas-chaudru/">
                   <Image
                     src="/assets/LinkedInMini.jpg"
                     alt="Logo LinkedIn"
@@ -71,7 +71,10 @@ export default function Header() {
                     width={40}
                   />
                 </Link>
-                <Link className="ml-4" href="/">
+                <Link
+                  className="ml-4"
+                  href="https://www.malt.fr/profile/thomaschaudru"
+                >
                   <Image
                     className="border border-red-400 rounded-full"
                     src="/assets/malt.png"

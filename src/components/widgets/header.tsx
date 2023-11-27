@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { Home, Linkedin, Mail, Menu } from 'lucide-react'
+import { Menu } from 'lucide-react'
 import Link from 'next/link'
 import {
   Sheet,
@@ -12,7 +12,7 @@ import {
 
 export default function Header() {
   return (
-    <header className="w-full flex p-4 items-center justify-between fixed z-50">
+    <header className="w-full flex p-4 items-center justify-between fixed z-50 md:p-8 lg:hidden">
       <Link href="/">
         <Image
           className="w-56 rounded-xl"
@@ -40,7 +40,7 @@ export default function Header() {
                 />
               </div>
 
-              <div className="flex flex-col mt-10 items-start">
+              <div className="flex flex-col mt-10 items-start md:ml-6">
                 <Link className="text-xl font-bold mt-4" href="/">
                   {/* <Home size={32} strokeWidth={2.5} /> */}
                   Accueil
@@ -62,7 +62,7 @@ export default function Header() {
                   Contact
                 </Link>
               </div>
-              <div className="flex items-center mt-20">
+              <div className="flex items-center mt-20 md:ml-6">
                 <Link href="https://www.linkedin.com/in/thomas-chaudru/">
                   <Image
                     src="/assets/LinkedInMini.jpg"

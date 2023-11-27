@@ -29,7 +29,7 @@ export default function Home() {
           Button
         </Button>
       </div>
-      <div className="absolute w-full top-[90%] flex flex-col items-center">
+      <div className="absolute w-full top-[86%] flex flex-col items-center sm:top-[90%]">
         <div className="w-64 bg-[#00000038] flex justify-center">
           <h2 className="text-white text-xl">Votre site web sur mesure</h2>
         </div>

@@ -18,7 +18,7 @@ export default function Home() {
         width={6144}
         height={4069}
       />
-      <div className="absolute top-1/3 flex flex-col items-center px-2 md:w-3/4 md:top-[40%] lg:w-1/2 2xl:w-1/4">
+      <div className="absolute top-1/3 flex flex-col items-center px-2 md:w-3/4 md:top-[40%] lg:w-1/2 xl:w-1/3 2xl:w-1/4">
         <h1
           className="w-full text-center text-white text-5xl font-bold
         mb-8"

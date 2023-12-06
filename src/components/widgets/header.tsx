@@ -61,19 +61,19 @@ export default function Header() {
                   </Link>
                   <Link
                     className="text-xl text-[#2E2E2E] font-bold mt-8"
-                    href="/"
+                    href="#services"
                   >
                     Services
                   </Link>
                   <Link
                     className="text-xl text-[#2E2E2E] font-bold mt-8"
-                    href="/"
+                    href="#bio"
                   >
                     Qui suis-je
                   </Link>
                   <Link
                     className="text-xl text-[#2E2E2E] font-bold mt-8"
-                    href="/"
+                    href="#realisations"
                   >
                     Réalisations
                   </Link>

@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button'
 import { ChevronsDown } from 'lucide-react'
 import useScrollHook from '@/lib/hooks/scrollHook'
 import '@/app/globals.css'
+import Link from 'next/link'
 
 export default function Banner() {
   const { scrollPos } = useScrollHook()
@@ -26,10 +27,11 @@ export default function Banner() {
           Développeur web frontend
         </h1>
         <Button
-          className="redBtn w-32 border-none font-bold text-white"
+          type="button"
+          className="z-10 redBtn w-32 border-none font-bold text-white xl:w-44 xl:h-12 xl:text-lg"
           variant="outline"
         >
-          Button
+          <Link href="#realisations">Réalisations</Link>
         </Button>
       </div>
       <div className="absolute w-full top-[86%] flex flex-col items-center sm:top-[90%]">

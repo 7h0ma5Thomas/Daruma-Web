@@ -23,10 +23,10 @@ export default function DesktopHeader() {
           <Link className="text-xl font-bold hover:scale-125" href="/">
             <Home size={32} strokeWidth={2.5} />
           </Link>
-          <Link className="text-xl font-bold hover:scale-125" href="/">
+          <Link className="text-xl font-bold hover:scale-125" href="#services">
             Services
           </Link>
-          <Link className="text-xl font-bold hover:scale-125" href="/">
+          <Link className="text-xl font-bold hover:scale-125" href="#bio">
             Qui suis-je
           </Link>
         </div>
@@ -44,7 +44,10 @@ export default function DesktopHeader() {
             scrollPos ? 'text-[#2E2E2E]' : 'text-white'
           }`}
         >
-          <Link className="text-xl font-bold hover:scale-125" href="/">
+          <Link
+            className="text-xl font-bold hover:scale-125"
+            href="#realisations"
+          >
             Réalisations
           </Link>
           <Link className="text-xl font-bold hover:scale-125" href="/">

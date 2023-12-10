@@ -6,6 +6,10 @@
   background-color: #d12600b1;
 }
 
+.brightRedBtn {
+  background-color: #d12600;
+}
+
 .greyBtn {
   background-color: #b4b4b4;
 }
@@ -16,6 +20,22 @@
 
 .cardBg {
   background-color: #e6e6e5;
+}
+
+.txtShadow {
+  text-shadow: 2px 2px 3px #111111;
+}
+
+.txtShadowLight {
+  text-shadow: 1px 2px 3px #929292;
+}
+
+.txtShadowLgtLght {
+  text-shadow: 1px 2px 3px #eaeaea;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
 }
 
 @layer base {

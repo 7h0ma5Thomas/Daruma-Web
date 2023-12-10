@@ -4,6 +4,8 @@ import MiniCard from '@/components/widgets/miniCard'
 import Banner from '@/components/widgets/banner'
 import Bio from '@/components/widgets/bio'
 import Realisations from '@/components/widgets/realisations'
+import Skills from '@/components/widgets/skills'
+import Contact from '@/components/widgets/contact'
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <MiniCard />
       <Bio />
       <Realisations />
+      <Skills />
+      <Contact />
     </main>
   )
 }

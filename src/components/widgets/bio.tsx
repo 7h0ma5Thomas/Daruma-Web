@@ -12,10 +12,11 @@ export default function Bio() {
           Qui suis-je <span className="text-[#D12600]">?</span>
         </h2>
         <p className="mt-8 mb-14 md:text-xl lg:text-lg xl:mt-6 xl:mb-0">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
-          aperiam, adipisci suscipit doloribus repellat ipsam neque quod
-          praesentium. Saepe ipsum ipsa aliquid veritatis ex ab laudantium!
-          Ipsum maiores adipisci earum eos similique eligendi inventore aut.
+          Passionné par le code et le design digital, je donne vie à vos idées
+          avec des sites web sur mesure. Qu&apos;il sagisse d&apos;une refonte,
+          de la création d&apos;une landing page ou d&apos;un site vitrine,
+          chaque projet est une histoire unique, façonnée pour répondre à vos
+          attentes.
         </p>
       </div>
       <div className="rounded-full shadow-lg shadow-gray-600 w-2/3 md:w-2/5 lg:w-1/4 xl:w-1/6 2xl:w-[12%]">

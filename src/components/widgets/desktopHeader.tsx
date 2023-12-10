@@ -17,7 +17,7 @@ export default function DesktopHeader() {
       >
         <div
           className={`w-1/3 flex justify-between items-center xl:w-[30%] ${
-            scrollPos ? 'text-[#2E2E2E]' : 'text-white'
+            scrollPos ? 'text-[#2E2E2E] txtShadowLight' : 'text-white txtShadow'
           }`}
         >
           <Link className="text-xl font-bold hover:scale-125" href="/">
@@ -41,7 +41,7 @@ export default function DesktopHeader() {
         </Link>
         <div
           className={`w-1/3 flex justify-between items-center xl:w-[30%] ${
-            scrollPos ? 'text-[#2E2E2E]' : 'text-white'
+            scrollPos ? 'text-[#2E2E2E] txtShadowLight' : 'text-white txtShadow'
           }`}
         >
           <Link
@@ -50,7 +50,7 @@ export default function DesktopHeader() {
           >
             Réalisations
           </Link>
-          <Link className="text-xl font-bold hover:scale-125" href="/">
+          <Link className="text-xl font-bold hover:scale-125" href="#skills">
             Compétences
           </Link>
           <Link className="text-xl font-bold hover:scale-125" href="/">

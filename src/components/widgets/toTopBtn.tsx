@@ -27,7 +27,7 @@ export default function ToTopBtn() {
     <>
       {showButton && (
         <button
-          className="z-50 h-12 w-12 flex justify-center items-center rounded-full bg-[#2e2e2eda] fixed bottom-6 left-[96%]"
+          className="hidden z-50 h-12 w-12 md:flex justify-center items-center rounded-full bg-[#2e2e2eda] fixed bottom-4 left-[90%] lg:left-[93%] xl:left-[94%] 2xl:left-[96%]"
           type="button"
           onClick={handleScrollToTop}
         >

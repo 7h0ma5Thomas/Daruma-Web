@@ -53,7 +53,7 @@ export default function DesktopHeader() {
           <Link className="text-xl font-bold hover:scale-125" href="#skills">
             Compétences
           </Link>
-          <Link className="text-xl font-bold hover:scale-125" href="/">
+          <Link className="text-xl font-bold hover:scale-125" href="#contact">
             <Mail size={32} strokeWidth={2.5} />
           </Link>
         </div>

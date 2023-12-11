@@ -90,6 +90,7 @@ export default function Contact() {
             <div className="flex">
               <Link href="https://www.linkedin.com/in/thomas-chaudru/">
                 <Image
+                  className="hover:scale-105"
                   src="/assets/LinkedInMini.jpg"
                   alt="Logo LinkedIn"
                   height={40}
@@ -98,7 +99,7 @@ export default function Contact() {
               </Link>
               <Link href="https://www.malt.fr/profile/thomaschaudru">
                 <Image
-                  className="border border-red-400 rounded-full ml-4"
+                  className="border border-red-400 rounded-full ml-4 hover:scale-105"
                   src="/assets/malt.png"
                   alt="Logo Malt"
                   height={40}

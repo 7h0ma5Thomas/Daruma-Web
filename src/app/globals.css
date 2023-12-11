@@ -38,6 +38,18 @@
   background-attachment: fixed;
 }
 
+.hover-scale {
+  transition: transform 0.3s ease-in;
+  -webkit-transition: transform 0.3s ease-in;
+  -moz-transition: transform 0.3s ease-in;
+  -ms-transition: transform 0.3s ease-in;
+  -o-transition: transform 0.3s ease-in;
+}
+
+.hover-scale:hover {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

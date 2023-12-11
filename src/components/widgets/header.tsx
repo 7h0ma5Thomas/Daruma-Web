@@ -6,6 +6,7 @@ import { Menu } from 'lucide-react'
 import Link from 'next/link'
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetDescription,
   SheetHeader,
@@ -15,6 +16,7 @@ import useScrollHook from '@/lib/hooks/scrollHook'
 
 export default function Header() {
   const { scrollPos } = useScrollHook()
+
   return (
     <header className="w-full fixed z-50 lg:hidden">
       <div
@@ -53,64 +55,80 @@ export default function Header() {
                 </div>
 
                 <div className="flex flex-col mt-10 items-start md:ml-6">
-                  <Link
-                    className="text-xl text-[#2E2E2E] font-bold mt-4"
-                    href="/"
-                  >
-                    Accueil
-                  </Link>
-                  <Link
-                    className="text-xl text-[#2E2E2E] font-bold mt-8"
-                    href="#services"
-                  >
-                    Services
-                  </Link>
-                  <Link
-                    className="text-xl text-[#2E2E2E] font-bold mt-8"
-                    href="#bio"
-                  >
-                    Qui suis-je
-                  </Link>
-                  <Link
-                    className="text-xl text-[#2E2E2E] font-bold mt-8"
-                    href="#realisations"
-                  >
-                    Réalisations
-                  </Link>
-                  <Link
-                    className="text-xl text-[#2E2E2E] font-bold mt-8"
-                    href="#skills"
-                  >
-                    Compétences
-                  </Link>
-                  <Link
-                    className="text-xl text-[#2E2E2E] font-bold mt-8"
-                    href="/"
-                  >
-                    Contact
-                  </Link>
+                  <SheetClose asChild>
+                    <Link
+                      className="text-xl text-[#2E2E2E] font-bold mt-4"
+                      href="/"
+                    >
+                      Accueil
+                    </Link>
+                  </SheetClose>
+                  <SheetClose asChild>
+                    <Link
+                      className="text-xl text-[#2E2E2E] font-bold mt-8"
+                      href="#services"
+                    >
+                      Services
+                    </Link>
+                  </SheetClose>
+                  <SheetClose asChild>
+                    <Link
+                      className="text-xl text-[#2E2E2E] font-bold mt-8"
+                      href="#bio"
+                    >
+                      Qui suis-je
+                    </Link>
+                  </SheetClose>
+                  <SheetClose asChild>
+                    <Link
+                      className="text-xl text-[#2E2E2E] font-bold mt-8"
+                      href="#realisations"
+                    >
+                      Réalisations
+                    </Link>
+                  </SheetClose>
+                  <SheetClose asChild>
+                    <Link
+                      className="text-xl text-[#2E2E2E] font-bold mt-8"
+                      href="#skills"
+                    >
+                      Compétences
+                    </Link>
+                  </SheetClose>
+                  <SheetClose asChild>
+                    <Link
+                      className="text-xl text-[#2E2E2E] font-bold mt-8"
+                      href="#contact"
+                    >
+                      Contact
+                    </Link>
+                  </SheetClose>
                 </div>
                 <div className="flex items-center mt-20 md:ml-6">
-                  <Link href="https://www.linkedin.com/in/thomas-chaudru/">
-                    <Image
-                      src="/assets/LinkedInMini.jpg"
-                      alt="Logo LinkedIn"
-                      height={40}
-                      width={40}
-                    />
-                  </Link>
-                  <Link
-                    className="ml-4"
-                    href="https://www.malt.fr/profile/thomaschaudru"
-                  >
-                    <Image
-                      className="border border-red-400 rounded-full"
-                      src="/assets/malt.png"
-                      alt="Logo Malt"
-                      height={40}
-                      width={40}
-                    />
-                  </Link>
+                  <SheetClose asChild>
+                    <Link href="https://www.linkedin.com/in/thomas-chaudru/">
+                      <Image
+                        src="/assets/LinkedInMini.jpg"
+                        alt="Logo LinkedIn"
+                        height={40}
+                        width={40}
+                      />
+                    </Link>
+                  </SheetClose>
+                  <SheetClose asChild>
+                    <Link
+                      className="ml-4"
+                      href="https://www.malt.fr/profile/thomaschaudru"
+                    >
+                      <Image
+                        className="border border-red-400 rounded-full"
+                        src="/assets/malt.png"
+                        alt="Logo Malt"
+                        height={40}
+                        width={40}
+                      />
+                    </Link>
+                  </SheetClose>
                 </div>
               </SheetDescription>
             </SheetHeader>

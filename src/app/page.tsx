@@ -6,6 +6,7 @@ import Bio from '@/components/widgets/bio'
 import Realisations from '@/components/widgets/realisations'
 import Skills from '@/components/widgets/skills'
 import Contact from '@/components/widgets/contact'
+import Footer from '@/components/widgets/footer'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Realisations />
       <Skills />
       <Contact />
+      <Footer />
     </main>
   )
 }

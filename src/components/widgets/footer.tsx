@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-center py-3 lg:flex-row lg:justify-center">
+    <footer className="w-full flex flex-col items-center py-3 shadow-inner shadow-gray-500 lg:flex-row lg:justify-center">
       <h3 className="mb-3 lg:mb-0 lg:mr-5">Site réalisé par :</h3>
       <Link href="/">
         <Image
@@ -15,6 +15,6 @@ export default function Footer() {
           height={109}
         />
       </Link>
-    </div>
+    </footer>
   )
 }

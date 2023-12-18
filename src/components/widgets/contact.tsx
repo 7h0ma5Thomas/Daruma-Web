@@ -37,9 +37,10 @@ export default function Contact() {
           <h3 className="font-bold">Votre formulaire de contact</h3>
           <p className="mt-3 mb-3">
             En attendant, pour toute demande, n&apos;hésitez pas à me contacter
+            :
           </p>
-          <p className="mb-3">par mail : contact@daruma-web.fr</p>
-          <p className="mb-12">ou par téléphone au 06 76 22 27 41.</p>
+          <p className="mb-3">- par mail</p>
+          <p className="mb-12">- ou par téléphone</p>
           <p>A bientôt.</p>
           <Image
             src="/assets/logoDaruma.png"

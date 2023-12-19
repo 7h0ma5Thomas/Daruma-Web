@@ -125,7 +125,9 @@ export default function Realisations() {
               variant="outline"
               className="z-10 brightRedBtn w-32 border-none font-bold text-white xl:w-32 xl:h-10 xl:text-base"
             >
-              <Link href="https://www.devaidaya.fr/">Visiter</Link>
+              <Link href="https://www.youtube.com/watch?v=8VLaOzHgr5M&ab_channel=Daruma-web">
+                Visiter
+              </Link>
             </Button>
             {/* <Button
               variant="outline"

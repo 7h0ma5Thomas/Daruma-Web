@@ -49,7 +49,9 @@ export default function Realisations() {
               variant="outline"
               className="z-10 brightRedBtn w-32 border-none font-bold text-white xl:w-32 xl:h-10 xl:text-base"
             >
-              <Link href="https://www.dev2you.fr/">Visiter</Link>
+              <Link href="https://www.dev2you.fr/" target="blank">
+                Visiter
+              </Link>
             </Button>
             {/* <Button
               variant="outline"
@@ -87,7 +89,9 @@ export default function Realisations() {
               variant="outline"
               className="z-10 brightRedBtn w-32 border-none font-bold text-white xl:w-32 xl:h-10 xl:text-base"
             >
-              <Link href="https://dev-up.vercel.app/">Visiter</Link>
+              <Link href="https://dev-up.vercel.app/" target="blank">
+                Visiter
+              </Link>
             </Button>
             {/* <Button
               variant="outline"
@@ -125,7 +129,10 @@ export default function Realisations() {
               variant="outline"
               className="z-10 brightRedBtn w-32 border-none font-bold text-white xl:w-32 xl:h-10 xl:text-base"
             >
-              <Link href="https://www.youtube.com/watch?v=8VLaOzHgr5M&ab_channel=Daruma-web">
+              <Link
+                href="https://www.youtube.com/watch?v=8VLaOzHgr5M&ab_channel=Daruma-web"
+                target="blank"
+              >
                 Visiter
               </Link>
             </Button>
